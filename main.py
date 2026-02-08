@@ -72,7 +72,4 @@ f7g8h9i Refactor main.py with better structure and comments
 e4f5g6h Add requirements.txt with dependencies
 a1b2c3d Add initial HTML structure for Fran API
 echo "🚀 PRODUCTION DEPLOY $(date)" > deploy.txt    
-git add .
-git commit -m "🚀 Complete FastAPI MVP - production ready"
-git push origin main
 curl https://dashboard.render.com/web/srv-d64b8ukr85hc73bovjg0
