@@ -64,8 +64,3 @@ async def procesar(input: InputData, api_key: str | None = Depends(api_key_heade
 @app.get("/info")
 async def info():
     return {"free_limit": "100 req/día", "paid": "Ilimitado $29/mes"}   
-f7g8h9i Refactor main.py with better structure and comments 
-e4f5g6h Add requirements.txt with dependencies
-a1b2c3d Add initial HTML structure for Fran API
-echo "🚀 PRODUCTION DEPLOY $(date)" > deploy.txt    
-curl https://dashboard.render.com/web/srv-d64b8ukr85hc73bovjg0
